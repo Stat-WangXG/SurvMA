@@ -7,6 +7,7 @@ This is an R package for providing predictions of personalized **Surv**ival prob
   - *Scenario 1*: **partial linear** Cox model;
   - *Scenario 2*: **time-varying coefficient** model.
 - The underlying key statistical techniques we used are "B-spline" and "Brier Score".
+- *This R package was contributed by **Mengyu Li**, **Jie Ding** and **Xiaoguang Wang**.*
 
 ## Package description and included main functions
 
@@ -126,8 +127,3 @@ predict.SurvMA.ROT <- SurvMA.Predict(
 )
 head(predict.SurvMA.ROT$sprobs,2)
 ```
-
-
-
-
-*This R package was contributed by **Mengyu Li**, **Jie Ding** and **Xiaoguang Wang**.*
