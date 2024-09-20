@@ -3,9 +3,9 @@
 ## Model Averaging Prediction of Personalized Survival Probabilities
 
 This is an R package for providing predictions of personalized **Surv**ival probabilities based on **M**odel **A**veraging approaches.
-- Two scenarios of candidate submodels are allowed:
-  - *Scenario 1*: **partial linear** Cox model;
-  - *Scenario 2*: **time-varying coefficient** model.
+- Two scenarios of **Candidate Submodels** are allowed:
+  - *Scenario 1*: **Partial Linear** Cox Model;
+  - *Scenario 2*: **Time-Varying Coefficient** Cox Model.
 - The underlying key statistical techniques we used are "B-spline" and "Brier Score".
 - *This R package was contributed by **Mengyu Li**, **Jie Ding** and **Xiaoguang Wang**.*
 
