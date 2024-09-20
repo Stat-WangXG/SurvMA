@@ -2,7 +2,7 @@
 
 ## Model Averaging Prediction of Personalized Survival Probabilities
 
-This is an R package for providing predictions of personalized **Surv**ival probabilities based on **M**odel **A**veraging approaches.
+This is an R package for providing predictions of personalized * **Surv**ival probabilities based on **M**odel **A**veraging *.
 - **KEY IDEA**: approximate the conditional survival function using *a weighted average of multiple candidate submodels*. 
 - Two scenarios of **Candidate Submodels** are allowed:
   - *Scenario 1*: **Partial Linear** Cox Model;
