@@ -3,10 +3,10 @@
 ## Model Averaging Prediction of Personalized Survival Probabilities
 
 This is an R package for providing predictions of personalized **Surv**ival probabilities based on **M**odel **A**veraging approaches.
-- The underlying key statistical techniques we used are "B-spline" and "Brier Score".
 - Two scenarios of candidate submodels are allows:
   - *Scenario 1*: **partial linear** Cox model;
   - *Scenario 2*: **time-varying coefficient** model.
+- The underlying key statistical techniques we used are "B-spline" and "Brier Score".
 
 ## Package description and included main functions
 
@@ -27,4 +27,9 @@ SurvMA.Fit(formula, sdata, submodel = c("PL","TVC"), continuous = NULL, control)
 SurvMA.Predict(object, covariates, times)
 ```
 We refer to its help page for more detailed explanations of the corresponding arguments (typing *?SurvMA.Fit()*). 
+Visually, the usages of these key functions and part of the their key arguments are summarized via the following figure:
+![image](https://github.com/user-attachments/assets/81116d19-85d3-4992-a6a6-57f234279cab)
+
+
+
 
