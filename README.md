@@ -8,7 +8,7 @@ This is an R package for providing predictions of personalized **Surv**ival prob
   - *Scenario 1*: **Partial Linear** Cox Model;
   - *Scenario 2*: **Time-Varying Coefficient** Cox Model.
 - The underlying key statistical techniques we used are "B-spline" and "Brier Score".
-- *This R package was contributed by **Mengyu Li**, **Jie Ding** and **Xiaoguang Wang**.*
+- *This R package was contributed by **Mengyu Li**, **Jie Ding** and **Xiaoguang Wang** (Dalian University of Technology).*
 
 ## Package description and included main functions
 
