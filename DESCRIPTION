@@ -1,0 +1,34 @@
+Package: SurvMA
+Title: Model Averaging Prediction of Personalized Survival
+        Probabilities
+Version: 1.6.8
+Authors@R: 
+  c(
+  person(given = "Mengyu",
+         family = "Li",
+         role = c("aut","cre"),
+         email = "mylilucky@163.com",
+         comment = c(ORCID = "0009-0008-4024-7573")),
+  person(given = "Jie",
+         family = "Ding",
+         role = c("aut"),
+         email = "biostat_jieding@outlook.com",
+         comment = c(ORCID = "0000-0002-6083-7529")),
+  person(given = "Xiaoguang",
+         family = "Wang",
+         role = c("aut"),
+         email = "wangxg@dlut.edu.cn",
+         comment = c(ORCID = "0000-0001-7391-9788"))
+  )
+Author: Mengyu Li [aut, cre] (ORCID: <https://orcid.org/0009-0008-4024-7573>), Jie Ding [aut] (ORCID: <https://orcid.org/0000-0002-6083-7529>), Xiaoguang Wang [aut] (ORCID: <https://orcid.org/0000-0001-7391-9788>)
+Maintainer: Mengyu Li <mylilucky@163.com>
+Description: Provide methods for model averaging prediction of personalized survival probabilities.
+License: GPL (>= 2)
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: survival, maxLik, pec, quadprog, splines, methods
+LazyData: TRUE
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+NeedsCompilation: no
+Packaged: 2024-09-20 09:36:27 UTC; biost
